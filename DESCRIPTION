@@ -1,0 +1,16 @@
+Package: anage
+Type: Package
+Title: AnAge Database of Animal Ageing and Longevity
+Version: 0.1.0
+Authors@R: c(
+    person("Andrew B.", "Collier", email = "andrew.b.collier@gmail.com", role = c("aut", "cre"))
+    )
+Description: A curated database of ageing and life history in animals,
+  including extensive longevity records.
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.1.1
+Imports: 
+    tibble
