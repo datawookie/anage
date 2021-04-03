@@ -9,3 +9,8 @@ cache: packages
 
 r_packages:
 - pkgdown
+addons:
+  apt:
+    packages:
+    - libharfbuzz-dev
+    - libfribidi-dev
