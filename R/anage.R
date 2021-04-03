@@ -6,7 +6,10 @@
 #'
 #' @format A data frame with the following columns variables:
 #' \describe{
-#'   \item{hagrid}{;}
+#'   \item{hagrid}{The \href{https://genomics.senescence.info/}{Human Ageing Genomic Resources} ID (HAGRID).}
+#' }
+#' The following columns specify levels in the \href{https://en.wikipedia.org/wiki/Taxonomic_rank}{taxonomic rank}:
+#' \describe{
 #'   \item{kingdom}{;}
 #'   \item{phylum}{;}
 #'   \item{class}{;}
@@ -14,6 +17,8 @@
 #'   \item{family}{;}
 #'   \item{genus}{;}
 #'   \item{species}{;}
+#' }
+#' \describe{
 #'   \item{common_name}{;}
 #'   \item{female_maturity_days}{;}
 #'   \item{male_maturity_days}{;}
@@ -22,9 +27,9 @@
 #'   \item{litter_clutch_size}{;}
 #'   \item{litters_clutches_per_year}{;}
 #'   \item{inter_litter_inter_birth_interval}{;}
-#'   \item{birth_weight_g}{;}
-#'   \item{weaning_weight_g}{;}
-#'   \item{adult_weight_g}{;}
+#'   \item{birth_mass_g}{;}
+#'   \item{weaning_mass_g}{;}
+#'   \item{adult_mass_g}{;}
 #'   \item{growth_rate_per_day}{;}
 #'   \item{maximum_longevity_yr}{;}
 #'   \item{source}{;}
