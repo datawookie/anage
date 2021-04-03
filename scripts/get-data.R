@@ -71,6 +71,10 @@ anage <- read_tsv(
     metabolic_rate_watt = metabolic_rate_w,
     body_mass_g,
     temperature_kelvin = temperature_k
+  ) %>%
+  mutate_at(
+    vars(kingdom:species),
+    as.factor
   )
 
 usethis::use_data(anage, overwrite = TRUE)
