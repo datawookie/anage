@@ -7,9 +7,7 @@
 #' @format A data frame with the following columns variables:
 #' \describe{
 #'   \item{hagrid}{The \href{https://genomics.senescence.info/}{Human Ageing Genomic Resources} ID (HAGRID).}
-#' }
 #' The following columns specify levels in the \href{https://en.wikipedia.org/wiki/Taxonomic_rank}{taxonomic rank}:
-#' \describe{
 #'   \item{kingdom}{;}
 #'   \item{phylum}{;}
 #'   \item{class}{;}
@@ -17,8 +15,7 @@
 #'   \item{family}{;}
 #'   \item{genus}{;}
 #'   \item{species}{;}
-#' }
-#' \describe{
+#' These columns give information on characteristics of a specific species:
 #'   \item{common_name}{;}
 #'   \item{female_maturity_days}{;}
 #'   \item{male_maturity_days}{;}
