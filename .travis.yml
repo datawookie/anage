@@ -1,0 +1,11 @@
+language: r
+r:
+- release
+dist: bionic
+
+warnings_are_errors: true
+latex: false
+cache: packages
+
+r_packages:
+- pkgdown

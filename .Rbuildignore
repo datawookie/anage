@@ -1,2 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^LICENSE\.md$
+.bumpversion.cfg
+.travis.yml
+scripts/
