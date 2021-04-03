@@ -9,6 +9,7 @@ A data frame with the following columns variables:
 \describe{
   \item{hagrid}{The \href{https://genomics.senescence.info/}{Human Ageing Genomic Resources} ID (HAGRID).}
 The following columns specify levels in the \href{https://en.wikipedia.org/wiki/Taxonomic_rank}{taxonomic rank}:
+  \item{domain}{;}
   \item{kingdom}{;}
   \item{phylum}{;}
   \item{class}{;}

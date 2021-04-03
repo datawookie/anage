@@ -40,8 +40,12 @@ anage <- read_tsv(
   )
 ) %>%
   clean_names() %>%
+  mutate(
+    domain = "Eukarya"
+  ) %>%
   select(
     hagrid,
+    domain,
     kingdom,
     phylum,
     class,
@@ -76,5 +80,9 @@ anage <- read_tsv(
     vars(kingdom:species),
     as.factor
   )
+
+if (!all.equal(levels(anage$kingdom), c("Animalia", "Fungi", "Plantae"))) {
+  stop("Kingdom outside of Eukarya.")
+}
 
 usethis::use_data(anage, overwrite = TRUE)
