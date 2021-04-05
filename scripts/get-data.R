@@ -17,7 +17,7 @@ unzip(DATASET_ZIP, files = DATASET_TXT, exdir = TEMPDIR)
 
 DATASET_TXT <- file.path(TEMPDIR, DATASET_TXT)
 
-anage <- read_tsv(
+age <- read_tsv(
   DATASET_TXT,
   col_types = cols(
     .default = col_double(),
@@ -81,8 +81,8 @@ anage <- read_tsv(
     as.factor
   )
 
-if (!all.equal(levels(anage$kingdom), c("Animalia", "Fungi", "Plantae"))) {
+if (!all.equal(levels(age$kingdom), c("Animalia", "Fungi", "Plantae"))) {
   stop("Kingdom outside of Eukarya.")
 }
 
-usethis::use_data(anage, overwrite = TRUE)
+usethis::use_data(age, overwrite = TRUE)

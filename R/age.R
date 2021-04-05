@@ -43,9 +43,4 @@
 #'
 #' @source
 #' These data were downloaded from \url{https://genomics.senescence.info/species/index.html}.
-"anage"
-
-## usethis namespace: start
-#' @importFrom tibble tibble
-## usethis namespace: end
-NULL
+"age"

@@ -1,12 +1,11 @@
-Package: anage
+Package: hagr
 Type: Package
-Title: Database of Animal Ageing and Longevity
+Title: Human Ageing Genomic Resources
 Version: 0.0.0
 Authors@R: c(
     person("Andrew B.", "Collier", email = "andrew.b.collier@gmail.com", role = c("aut", "cre"))
     )
-Description: A curated database of ageing and life history in animals,
-  including extensive longevity records.
+Description: Data from Human Ageing Genomic Resources.
 Encoding: UTF-8
 LazyData: true
 Depends: 
