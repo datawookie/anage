@@ -18,28 +18,28 @@ The following columns specify levels in the \href{https://en.wikipedia.org/wiki/
   \item{genus}{;}
   \item{species}{;}
 These columns give information on characteristics of a specific species:
-  \item{common_name}{;}
-  \item{female_maturity_days}{;}
-  \item{male_maturity_days}{;}
+  \item{common_name}{The \href{https://en.wikipedia.org/wiki/Common_name}{common name} for the species.}
+  \item{female_maturity_days}{Number of days for females to reach sexual maturity.}
+  \item{male_maturity_days}{Number of days for males to reach sexual maturity.}
   \item{gestation_incubation_days}{;}
-  \item{weaning_days}{;}
+  \item{weaning_days}{Number of days to wean.}
   \item{litter_clutch_size}{;}
   \item{litters_clutches_per_year}{;}
   \item{inter_litter_inter_birth_interval}{;}
-  \item{birth_mass_g}{;}
-  \item{weaning_mass_g}{;}
-  \item{adult_mass_g}{;}
-  \item{growth_rate_per_day}{;}
-  \item{maximum_longevity_yr}{;}
+  \item{birth_mass_g}{The birth mass in grams.}
+  \item{weaning_mass_g}{The weaning mass in grams.}
+  \item{adult_mass_g}{The adult mass in grams.}
+  \item{growth_rate_per_day}{The growth rate per day.}
+  \item{maximum_longevity_yr}{The maximum longevity in years.}
   \item{source}{;}
   \item{specimen_origin}{;}
   \item{sample_size}{;}
   \item{data_quality}{;}
-  \item{imr_per_yr}{;}
-  \item{mrdt_yr}{;}
-  \item{metabolic_rate_watt}{;}
-  \item{body_mass_g}{;}
-  \item{temperature_kelvin}{.}
+  \item{imr_per_yr}{The \href{https://en.wikipedia.org/wiki/Infant_mortality}{Infant Mortality Rate (IMR)}.}
+  \item{mrdt_yr}{The Mortality Rate Doubling Time (MRDT).}
+  \item{metabolic_rate_watt}{The \href{https://en.wikipedia.org/wiki/Basal_metabolic_rate}{Basal Metabolic Rate (BMR)} in Watts.}
+  \item{body_mass_g}{The body mass in grams.}
+  \item{temperature_kelvin}{The body temperature in Kelvin.}
 }
 }
 \source{
