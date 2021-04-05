@@ -41,7 +41,7 @@ age <- read_tsv(
 ) %>%
   clean_names() %>%
   mutate(
-    domain = "Eukarya"
+    domain = factor("Eukarya")
   ) %>%
   select(
     hagrid,
